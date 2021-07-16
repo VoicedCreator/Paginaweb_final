@@ -1,0 +1,52 @@
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+header{
+    background: red;
+    height: 100px;
+    width: 99.52%;
+    margin: 0px;
+    text-align: center;
+    line-height: 57px;
+    border-bottom: black dashed 3px;
+    border-top: black dashed 3px;
+    border-right: black dashed 3px;
+    border-left: black dashed 3px;
+}
+
+a{
+    margin: 5px;
+}
+
+section{
+    float: left;
+    background: white;  
+    width: 1077px;
+    min-height: 500px;
+    border-bottom: black dashed 3px;
+    border-left: black dashed 3px;
+    color: black;
+}
+
+aside{
+    float: right;       
+    width: calc(20% - 20px);
+    background: orange;
+    min-height: 541px;
+    border-bottom: black dashed 3px;
+    border-right: black dashed 3px;
+    border-left: black dashed 3px;
+}
+
+
+article{
+    margin: 0px;
+    background: blueviolet;
+    min-height: 50px;
+    border-top: transparent dashed 3px;
+    border-bottom: black dashed 3px;
+    border-right: black dashed 3px;
+    border-left: black dashed 3px;
+}
